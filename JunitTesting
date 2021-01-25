@@ -1,0 +1,22 @@
+package Testing;
+
+public class JunitTesting {
+	
+	// method to return square of a number
+	public int Square(int n) {
+		
+		return n*n;
+	}
+	
+	// method to count the characters ('A' or 'a') in a given string
+	public int CountA(String S) {
+		int count=0;
+		for (int i=0; i<S.length();i++) {
+			if (S.charAt(i)=='a'|| S.charAt(i)=='A') {
+				count=count+1;
+			}
+		}
+		return count;
+	}
+
+}
