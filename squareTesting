@@ -1,0 +1,18 @@
+package Testing;
+
+import static org.junit.Assert.*;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class squareTesting {
+
+	@Test
+	void test() {
+		JunitTesting test = new JunitTesting();
+		int output = test.Square(10);
+		assertEquals(100, output);
+	}
+
+}
